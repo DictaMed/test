@@ -1,7 +1,0 @@
-{
-  "name": "DictaMed",
-  "description": "Une solution innovante de dictée médicale intelligente qui transforme vos enregistrements vocaux en données structurées, permettant aux professionnels de la santé de collecter efficacement des données de recherche grâce à la reconnaissance vocale automatique.",
-  "requestFramePermissions": [
-    "microphone"
-  ]
-}
