@@ -1,7 +1,0 @@
-{
-  "name": "DictaMed",
-  "description": "Une solution innovante de dictée médicale qui simplifie la collecte de données. Enregistrez les informations de vos patients vocalement et envoyez les fichiers audio directement à votre système pour traitement.",
-  "requestFramePermissions": [
-    "microphone"
-  ]
-}
