@@ -490,7 +490,7 @@
                     <div class="example-item">
                         <strong>📋 Section 1 - Données cliniques :</strong>
                         <p style="font-size: 1.1em; color: #2563eb; font-weight: 600;">"Âge 45 ans, sexe masculin, BMI 28, tabac oui"</p>
-                        <p class="note">💡 Astuce : Prononcez bien "B-M-I" en épelant, et séparez chaque donnée</p>
+                        <p class="note">💡 Astuce : vous pouvez dire : Pas de tabac, patient non tabagique, tabac non.</p>
                     </div>
                     <div class="example-item">
                         <strong>🏥 Section 2 - Antécédents :</strong>
@@ -511,14 +511,14 @@
 
             <!-- Informations patient -->
             <div class="card">
-                <h2>Informations Patient</h2>
+                <h2>Informations du patient</h2>
                 <div class="form-group">
-                    <label for="numeroDossierTest">Numéro de dossier fictif</label>
+                    <label for="numeroDossierTest">Numéro de dossier</label>
                     <input type="text" id="numeroDossierTest" maxlength="50" placeholder="Ex: 14/2024">
                     <span class="char-counter" id="numeroDossierTestCounter">0/50</span>
                 </div>
                 <div class="form-group">
-                    <label for="nomPatientTest">Nom fictif</label>
+                    <label for="nomPatientTest">nom & prénom</label>
                     <input type="text" id="nomPatientTest" maxlength="50" placeholder="Ex: ben saleh kamel">
                     <span class="char-counter" id="nomPatientTestCounter">0/50</span>
                 </div>
@@ -554,7 +554,7 @@
 
             <div class="recording-section" data-section="antecedents">
                 <h3>🏥 Antécédents</h3>
-                <p class="section-description">HTA, DT2, dyslipidémie, AVC</p>
+                <p class="section-description">HTA, DT2, DYSLIPIDEMIE, AVC</p>
                 <div class="recording-controls">
                     <div class="status-info">
                         <span class="status-badge" data-status="ready">Prêt</span>
@@ -574,7 +574,7 @@
 
             <div class="recording-section" data-section="biologie">
                 <h3>🧪 Biologie</h3>
-                <p class="section-description">Hémoglobine, globules blancs, plaquettes, ionogramme complet</p>
+                <p class="section-description">Hémoglobine, globules blancs, plaquettes, ionogramme complet( sodium , potassium, chlore)</p>
                 <div class="recording-controls">
                     <div class="status-info">
                         <span class="status-badge" data-status="ready">Prêt</span>
@@ -627,7 +627,7 @@
 
             <!-- Informations patient -->
             <div class="card">
-                <h2>Informations Patient</h2>
+                <h2>Informations du patient</h2>
                 <div class="form-group">
                     <label for="numeroDossierTexte">Numéro de dossier <span style="color: var(--red);">*</span></label>
                     <input type="text" id="numeroDossierTexte" maxlength="50" placeholder="Ex: 14/2024" required>
@@ -680,6 +680,15 @@
             <p>&copy; 2025 DictaMed - Tous droits réservés | Contact : <a href="mailto:DictaMed.SPSS@gmail.com">DictaMed.SPSS@gmail.com</a></p>
         </div>
     </footer>
+
+
+
+    <!-- Nouveaux modules v8.0 -->
+<script src="config.js"></script>
+<script src="utils.js"></script>
+<script src="state-manager.js"></script>
+<script src="api-manager.js"></script>
+
 
     <script src="script.js"></script>
 </body>
